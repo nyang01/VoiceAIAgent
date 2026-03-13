@@ -1,0 +1,27 @@
+# Secrets & personal data
+.env
+credentials.json
+token.json
+memory.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Deployment
+*.egg-info/
+dist/
+build/
+
+# Claude
+.claude/
