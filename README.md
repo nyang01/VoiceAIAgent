@@ -5,7 +5,7 @@
 > **"What's on my schedule tomorrow?"** — She tells you.
 > **"What's the weather in London?"** — She looks it up and tells you.
 
-Layla is a voice AI **agent**, not a chatbot. She doesn't tell you how to do things — she does them. Real emails sent. Real calendar events created. Real-time web answers. All through natural voice conversation.
+Layla is a voice AI **agent**, not a chatbot. She doesn't tell you how to do things — she does them. Real emails sent. Real calendar events created. Real-time web answers. All through natural voice conversation — just keep talking until you say "Goodbye".
 
 Built for the [GDG London "Build with AI x IWD 2026" Hackathon](https://gdg-london-hackathon.vercel.app/).
 
@@ -80,6 +80,7 @@ Currently built for **iPhone** using iOS Shortcuts for voice input (STT) and spo
 - **Session-aware greeting** — Tracks when each session ends. Next greeting reports only what's new since then. Counts only Primary inbox, filtering out Promotions/Social/Updates.
 - **History compaction** — After 20 messages, older messages are summarized into a concise context block, preserving key details (IDs, names, actions) while keeping token costs low.
 - **Parallel tool execution** — Gemini can call multiple tools at once (e.g., read_emails + read_calendar). All results returned in a single response.
+- **Continuous conversation** — Each session is a natural back-and-forth dialogue that continues until the user says "Goodbye". No need to re-trigger between messages.
 
 ---
 
